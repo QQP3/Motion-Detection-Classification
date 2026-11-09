@@ -1,0 +1,23 @@
+
+input:
+  source_type: webcam
+
+  webcam:
+    device_id: 0
+
+  video:
+    path: ""
+
+  url:
+    address: ""
+
+normalization:
+  enabled: true
+
+  resize:
+    enabled: true
+    width: 640
+    height: 480
+
+  color_format: BGR
+  output_fps: null

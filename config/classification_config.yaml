@@ -1,0 +1,4 @@
+classification:
+  enabled: true
+  method: null
+  model_path: null

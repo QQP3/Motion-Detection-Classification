@@ -1,0 +1,4 @@
+detection:
+  algorithm: null
+  enabled: true
+  parameters: {}
