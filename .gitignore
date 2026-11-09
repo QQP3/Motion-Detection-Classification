@@ -1,8 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
 .venv/
 venv/
-__pycache__/
-*.pyc
-.env
+env/
+
+# IDEs
 .vscode/
-*.pub
+.idea/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# Experiments
+experiments/output/
+
+# Temporary files
+*.log
+*.tmp
 
