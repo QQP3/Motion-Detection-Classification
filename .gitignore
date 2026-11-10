@@ -33,4 +33,4 @@ experiments/output/
 # Temporary files
 *.log
 *.tmp
-
+*.tmp.py
