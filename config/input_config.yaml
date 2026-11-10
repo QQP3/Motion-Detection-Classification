@@ -3,7 +3,8 @@ input:
   source_type: webcam
 
   webcam:
-    device_id: 0
+    device_id: 1
+    backend: auto
 
   video:
     path: ""
@@ -13,11 +14,9 @@ input:
 
 normalization:
   enabled: true
-
   resize:
     enabled: true
     width: 640
     height: 480
-
   color_format: BGR
   output_fps: null

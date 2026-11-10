@@ -1,34 +1,30 @@
 
-# Motion Detection and Classification
+## Supported Operating Systems
 
-An advanced, cross-platform motion detection and
-classification system developed using Python and OpenCV.
+The project is designed to support:
 
-## Features
-
-- Multiple video input sources
-- Webcam input
-- Video file input
-- URL stream input
-- Modular input normalization
-- Motion detection
-- Motion classification
-- Configurable processing pipeline
-
-## Supported Platforms
-
-- Linux (multiple distributions)
-- Windows
+- Linux distributions
+- Windows 10 and Windows 11
 - macOS
 
-## Technology Stack
+The project uses Python and OpenCV to provide a
+cross-platform motion detection and classification pipeline.
 
-- Python
-- OpenCV
-- NumPy
-- SciPy
-- Scikit-learn
+Camera availability and supported video backends may vary
+depending on the operating system and hardware.
 
-## Project Status
+## Input Sources
 
-Currently under development.
+- Webcam
+- Local video files
+- Network video streams
+
+All input sources are configurable through
+`config/input_config.yaml`.
+
+## Development Environment
+
+Python dependencies are listed in `requirements.txt`.
+
+The project should be tested independently on each
+supported operating system before release.
